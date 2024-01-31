@@ -5,8 +5,6 @@ const path = require("path");
 const logger = require("./helpers/logger");
 const errorMiddleWare = require("./middleware/errorMiddleware");
 const cookieParser = require("cookie-parser");
-const userRoute = require("./routes/user/user");
-const authRoute = require("./routes/auth/auth");
 const generalRoute = require('./routes/general/general');
 
 try {
@@ -37,23 +35,16 @@ app.use(
   app.use(express.static(path.join("public")));
 
 
-//ROUTES
-
-//AUTH ROUTES
-app.use("/auth", authRoute)
-
-//GENERAL ROUTE
+//Rot
 app.use("/", generalRoute)
 
-//USER ROUTE
-  app.use("/user", userRoute);
 
   //Error Middleware
   app.use(errorMiddleWare);
 
 
 
-  const PORT = process.env.PORT || 5000;
+  const PORT = process.env.PORT || 8000;
 
   app.listen(PORT, () => console.log("Server Successful Connectd to",PORT));
 
