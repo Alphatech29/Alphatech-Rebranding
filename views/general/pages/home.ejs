@@ -1,27 +1,303 @@
 <%-include("../partials/header")%>
 
 <section class="hero">
+    <div class="de"><i class="fa-solid fa-code"></i></div>
+    <div class="dec"><i class="fa-brands fa-js"></i></div>
     <div class="container-fluid">
         <div class="row justify-content-center">
             <div class="col-6">
-                <h1>
-                    Tailored Product and Software Development Centered Around Your Success
+                <h1 class="text-heading" style="height: 200px;">
+                    Unlock your business's full potential through tailored <span id="type-writer"></span></h1>.
                 </h1>
-                <p>
-                    Empowering Your Software Development with Skilled Talent. Whether you need individual developers or
-                    comprehensive multi-team solutions, we offer offshore software development services. Our teams are
-                    aligned with your timezone and ensure high responsiveness.
+                <p class="text-sub mt-3">
+                    Turn your concepts into reality with Alphatech's dependable software development services. Specializing in delivering top-notch, personalized solutions designed to meet your unique requirements.
+                </p>
+                <div class="newsletter">
+                    <form id="subscriptionForm" action="post">
+                        <div class="form-control">
+                            <input type="email" name="email" id="email" placeholder="Your email address.">
+                        </div>
+                        <div class="sub-btn">
+                            <button id="submitButton" type="submit">Subscribe</button>
+                        </div>
+                    </form>
+                   
+                </div>
+            </div>
+            <div class="col-5 hero-img">
+                <img src="/image/service-feature.png" alt="" width="auto">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="our-service">
+    <div class="container-fluid">
+        <div class="head-titel"><h2 class="our-text top">Our Services</h2>
+        <p class="our-pragraph">Discover our cutting-edge software solutions and exceptional user experiences.</p></div>
+        <div class="row">
+            <div class="col-5 left">
+                <div class="service-icon" style="--service-color:#b30587;">
+                    <span style="--service-color-icon:#f8f8f8;"><i class="fa-solid fa-computer"></i></span>
+                </div>
+                <h3>Website Development</h3>
+                <p> 
+                   Our collaborative team innovates your online presence, turning ideas into reality. We deliver solutions, from simple business websites to intricate e-commerce platforms, setting you apart from the competition.
                 </p>
             </div>
-            <div class="col-5"></div>
+            <div class="col-5 top">
+                <div class="service-icon" style="--service-color:#fbff07;" >
+                    <span><i class="fa-solid fa-mobile-button" style="--service-color:#430063;"></i></span>
+                </div>
+                <h3>Mobile App Development</h3>
+                <p>Trust us for outstanding iOS and Android apps, meticulously designed for a captivating user experience. From concept to testing, we bring your mobile app vision to life, propelling your business forward.
+                </p>
+            </div>
+            <div class="col-5 right">
+                <div class="service-icon" style="--service-color:#420061;">
+                    <span style="--service-color-icon:#fbf3ff;"><i class="fa-solid fa-cloud"></i></span>
+                </div>
+                <h3>Cloud App Development</h3>
+                <p>Modern web and mobile products demand a robust, scalable backend operating on cloud infrastructure. Ensure seamless performance and flexibility for your applications with our reliable backend solutions.
+                </p>
+            </div>
+            <div class="col-5 left">
+                <div class="service-icon" style="--service-color:#00beee;">
+                    <span style="--service-color-icon:#420061;"><i class="fa-solid fa-palette"></i></span>
+                </div>
+                <h3>UI & UX Designing</h3>
+                <p>
+                   Our designers harmonize aesthetics with functionality, creating visually stunning interfaces and engaging user experiences for seamless interactions, enhancing online brand presence.
+                </p>
+            </div>
+            <div class="col-5 bottom">
+                <div class="service-icon" style="--service-color:#520088;">
+                    <span style="--service-color-icon:#f2e5f8;"><i class="fa-solid fa-database"></i></span>
+                </div>
+                <h3>Data Science</h3>
+                <p>
+                    Empowering clients to overcome challenging data obstacles, we predict product/service demand, enhance customer satisfaction, and shape business strategies through informed decisions and foresight.
+                </p>
+            </div>
+            <div class="col-5 right">
+                <div class="service-icon"style="--service-color:#FCF700;">
+                    <span style="--service-color-icon:#580081;"><i class="fa-solid fa-people-roof"></i></span>
+                </div>
+                <h3>Product Management</h3>
+                <p>Focusing on product-market fit, we integrate niche standards with unique management approaches. Our emphasis on priorities ensures flexibility as we adapt to changes, emphasizing what matters most for success.
+                </p>
+            </div>
+          
         </div>
+    </div>
+</section>
+<section class="award">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-6 award-img">
+                <img src="/image/Check.png" alt="" width="600px">
+            </div>
+            <div class="col-6 ">
+                <span class="top">We are Software Development Agency</span>
+                <h3 class="top">Top-Notch Web Design Firm in Nigeria, Recognized for Award-Winning Excellence.</h3>
+                <p class="right">We specialize in brand building and offer cutting-edge, business-oriented solutions that yield results! Our award-winning design team has crafted websites for diverse businesses. We take pride in our reputation for excellence, client service, and success.</p>
+                <p class="mb-5 right">
+                    Alphatech, an award-winning software and IT development agency, has been serving over 4,000 clients since 2010, both in Nigeria and internationally. Our focus is on result-driven online development strategies.</p>
+
+                    <a class="left" href="/about-us">Know more about us</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="tekrevol">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-12">
+                <h3 class="h3_head">Tech-stack for Our Website Development Firm</h3>
+            </div>
+            <div class="col-lg-6 col-md-6 col-12 right">
+                <p>As an experienced website development firm, we understand the significance of the latest technologies
+                    to give a competitive edge to clients in the market. We deploy evolving technologies to build
+                    innovative web solutions ensuring rich feature-based functionalities.</p>
+            </div>
+        </div>
+        
+        <div class="nav-tabs">
+            <div class="tab-head">
+                <ul class="nav nav-tab" role="tablist">
+                    <li class="nav-item "><button type="button" data-bs-toggle="tab" data-bs-target="#frontendTab" class="active">Front-End Technologies</button></li>
+                    <li><button type="button" data-bs-toggle="tab" data-bs-target="#backendTab">Back-End Technologies</button></li>
+                    <li><button type="button" data-bs-toggle="tab" data-bs-target="#mobileTab">Mobile app Technologies</button></li>
+                    <li><button type="button" data-bs-toggle="tab" data-bs-target="#databaseTab">Database Technologies</button></li>
+                    <li><button type="button" data-bs-toggle="tab" data-bs-target="#operatingTab">Operating System</button></li>
+                </ul>
+            </div>
+
+            <div class="tab-content">
+                <div role="tabpanel" id="frontendTab" aria-labelledby="frontendTabLabel" class="fade tab-pane active show">
+                    <ul>
+                        <li><span><i class="fa-solid fa-circle-check"></i></span>HTML5</li>
+                        <li><span><i class="fa-solid fa-circle-check"></i></span>CSS3</li>
+                        <li><span><i class="fa-solid fa-circle-check"></i></span>JavaScript (ES6+)</li>
+                        <li><span><i class="fa-solid fa-circle-check"></i></span>React.js</li>
+                        <li><span><i class="fa-solid fa-circle-check"></i></span>Angular.js</li>
+                        <li><span><i class="fa-solid fa-circle-check"></i></span>Vue.js</li>
+                        <li><span><i class="fa-solid fa-circle-check"></i></span>Bootstrap</li>
+                        <li><span><i class="fa-solid fa-circle-check"></i></span>Tailwind CSS</li>
+                        <li><span><i class="fa-solid fa-circle-check"></i></span>Webpack</li>
+                      </ul>
+                </div>
+
+                <div role="tabpanel" id="backendTab" aria-labelledby="backendTabLabel" class="fade tab-pane">
+                    <ul>
+                        <li><span><i class="fa-solid fa-circle-check"></i></span>JavaScript</li>
+                        <li><span><i class="fa-solid fa-circle-check"></i></span>Node.js</li>
+                        <li><span><i class="fa-solid fa-circle-check"></i></span>Express.js</li>
+                        <li><span><i class="fa-solid fa-circle-check"></i></span>Python</li>
+                        <li><span><i class="fa-solid fa-circle-check"></i></span>PHP</li>
+                        <li><span><i class="fa-solid fa-circle-check"></i></span>Django</li>
+                        <li><span><i class="fa-solid fa-circle-check"></i></span>Laravel</li>
+                        <li><span><i class="fa-solid fa-circle-check"></i></span>Java</li>
+                      </ul>
+                </div>
+
+                <div role="tabpanel" id="mobileTab" aria-labelledby="mobileTabLabel" class="fade tab-pane">
+                    <ul>
+                        <li><span><i class="fas fa-circle-check"></i></span>Swift</li>
+                        <li><span><i class="fas fa-circle-check"></i></span>Kotlin</li>
+                        <li><span><i class="fas fa-circle-check"></i></span>Java</li>
+                        <li><span><i class="fas fa-circle-check"></i></span>React Native (JavaScript)</li>
+                        <li><span><i class="fas fa-circle-check"></i></span>Flutter (Dart)</li>
+                      </ul>
+                </div>
+
+                <div role="tabpanel" id="databaseTab" aria-labelledby="databaseTabLabel" class="fade tab-pane">
+                    <ul>
+                        <li><span><i class="fas fa-circle-check"></i></span>MySQL</li>
+                        <li><span><i class="fas fa-circle-check"></i></span>PostgreSQL</li>
+                        <li><span><i class="fas fa-circle-check"></i></span>SQLite</li>
+                        <li><span><i class="fas fa-circle-check"></i></span>Microsoft SQL Server</li>
+                        <li><span><i class="fas fa-circle-check"></i></span>Oracle Database</li>
+                        <li><span><i class="fas fa-circle-check"></i></span>MongoDB</li>
+                        <li><span><i class="fas fa-circle-check"></i></span>Redis</li>
+                        <li><span><i class="fas fa-circle-check"></i></span>Amazon DynamoDB</li>
+                      </ul>
+                </div>
+
+                <div role="tabpanel" id="operatingTab" aria-labelledby="operatingTabLabel" class="fade tab-pane">
+                    <ul>
+                        <li><span><i class="fas fa-circle-check"></i></span>Windows Server</li>
+                        <li><span><i class="fas fa-circle-check"></i></span>Linux (Ubuntu)</li>
+                        <li><span><i class="fas fa-circle-check"></i></span>macOS Server</li>
+                        <li><span><i class="fas fa-circle-check"></i></span>CentOS</li>
+                        <li><span><i class="fas fa-circle-check"></i></span>Debian</li>
+                    </ul>
+                </div>
+            </div>
+        </div>        
+    </div>
+</div>
+
+<section class="tech">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-6 flex-column">
+                <h1 class="top" style="color: #520088; font-weight: 600;">We are the best software Commany in Nigeria</h1>
+                <article class="left">
+                    Aphatech, a leading web development company since 2010, specializes in delivering unmatched
+                    web development services, leveraging technologies like Javascript, Node.js, React.js, PHP, Laravel, Drupal, WordPress, and more.
+                    Hire skilled web developers from our distinguished team at cost-effective rates, showcasing
+                    exceptional domain expertise. Reach us for comprehensive web development services across diverse
+                    industries such as eCommerce, renewable energy, entertainment, health, education, and more. Contact
+                    us now for a free consultation with our senior web development experts, and bring your innovative
+                    business ideas to life.
+                </article>
+            </div>
+            <div class="col-5 right">
+                <img src="/image/web-devlopment.svg" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="features">
+    <div class="container-fluid justify-content-center align-items-center d-flex flex-column">
+        <h5>Features</h5>
+        <div class="head-title">Website capabilities | Benefits</div>
+        <p class="bottom">Every website design project is executed with industry best practices. Your website design will include the following features and addons, ensuring deliverables align precisely with the project's scope.</p>
+        <div class="row mt-5">
+            <div class="col-4 left">
+                <ul>
+                    <li><span><i class="fa-solid fa-circle-check"></i></span>Mobile Ready Responsiveness</li>
+                    <li><span><i class="fa-solid fa-circle-check"></i></span>Search Engine Optimization (SEO)</li>
+                    <li><span><i class="fa-solid fa-circle-check"></i></span>Built-in Blog / Portfolios</li>
+                    <li><span><i class="fa-solid fa-circle-check"></i></span>E-Commerce Integration</li>
+                </ul>
+            </div>
+            <div class="col-4 bottom">
+                <ul>
+                    <li><span><i class="fa-solid fa-circle-check"></i></span>Contact & Booking Forms</li>
+                    <li><span><i class="fa-solid fa-circle-check"></i></span>Lead conversion Optimization</li>
+                    <li><span><i class="fa-solid fa-circle-check"></i></span>Social Media Integration</li>
+                    <li><span><i class="fa-solid fa-circle-check"></i></span>Regular Website backups</li>
+                </ul>
+            </div>
+            <div class="col-4 right">
+                <ul>
+                    <li><span><i class="fa-solid fa-circle-check"></i></span>Ongoing Support & Management</li>
+                    <li><span><i class="fa-solid fa-circle-check"></i></span>Continuous Website Security</li>
+                    <li><span><i class="fa-solid fa-circle-check"></i></span>Website Software & Plugin Updates</li>
+                    <li><span><i class="fa-solid fa-circle-check"></i></span>Fast Website load speeds</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="partner">
+    <div class="container-fluid justify-content-center align-items-center d-flex overflow-hidden flex-column">
+        <div class="row w-100  ">
+            <div class="col-4">
+                <ul>
+                    <li><img src="/image/images.png" alt="" width="50"></li>
+                    <li><img src="/image/Google-AdWords-logo.png" alt="" width="50"></li>
+                    <li><img src="/image/62cc493b7755665152a8df7d.png" alt="" width="50" ></li>
+                    <li><img src="/image/main_image_png-109265-750x400-1.png" alt="" width="50"></li>
+                    <li><img src="/image/download.png" alt="" width="50" ></li>
+                    <li><img src="/image/Mailchimp-logo.png" alt="" width="50"></li>
+                </ul>
+
+            </div>
+            <div class="col-4 justify-content-center align-items-center d-flex flex-column ">
+                <span class="top">Our Partners</span>
+                <h3 class="bottom">We partner with leading tech companies worldwide.</h3>
+            </div>
+            <div class="col-4">
+                <ul>
+                    <li><img src="/image/62c6bc0beee9410fe137d91e.png" alt="" width="50"></li>
+                    <li><img src="/image/629a40dc3e59ee069da94c82.png" alt="" width="50"></li>
+                    <li><img src="/image/hubspot.png" alt="" width="50" ></li>
+                    <li><img src="/image/Shopify-Symbol.png" alt="" width="50"></li>
+                    <li><img src="/image/sprout-social-logo-new.png" alt="" width="50" ></li>
+                    <li><img src="/image/ahrefs.png" alt="" width="50"></li>
+                </ul>
+            </div>
+        </div>
+
+<div class="requst">
+    <div class="rd">
+        <span>Ready?</span>
+        <h2>Discuss your objectives with us.</h2>
+    </div>
+    <a href="">Request Quote</a>
+</div>
+
     </div>
 </section>
 
 
 
 
-
-
-
+<script src="/home/js/contact.js"></script>
 <%-include("../partials/footer")%>

@@ -1,0 +1,97 @@
+[2024-02-09T01:52:57.721] [DEBUG] default - Error: listen EADDRINUSE: address already in use :::8000
+    at Server.setupListenHandle [as _listen2] (node:net:1432:16)
+    at listenInCluster (node:net:1480:12)
+    at Server.listen (node:net:1568:7)
+    at Function.listen (C:\Users\hp\Desktop\Alphatech-Rebranding\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (C:\Users\hp\Desktop\Alphatech-Rebranding\server.js:51:7)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 8000
+}
+[2024-02-09T02:08:43.306] [DEBUG] default - ReferenceError: cors is not defined
+    at Object.<anonymous> (C:\Users\hp\Desktop\Alphatech-Rebranding\server.js:19:7)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+[2024-02-09T02:10:25.773] [DEBUG] default - ReferenceError: cors is not defined
+    at Object.<anonymous> (C:\Users\hp\Desktop\Alphatech-Rebranding\server.js:19:7)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+[2024-02-09T02:11:38.551] [DEBUG] default - ReferenceError: cors is not defined
+    at Object.<anonymous> (C:\Users\hp\Desktop\Alphatech-Rebranding\server.js:19:7)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+[2024-02-09T02:14:41.727] [DEBUG] default - ReferenceError: cors is not defined
+    at Object.<anonymous> (C:\Users\hp\Desktop\Alphatech-Rebranding\server.js:19:7)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+[2024-02-09T02:18:23.769] [DEBUG] default - ReferenceError: cors is not defined
+    at Object.<anonymous> (C:\Users\hp\Desktop\Alphatech-Rebranding\server.js:19:7)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+[2024-02-09T02:19:16.763] [DEBUG] default - ReferenceError: cors is not defined
+    at Object.<anonymous> (C:\Users\hp\Desktop\Alphatech-Rebranding\server.js:19:7)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+[2024-02-09T02:19:40.187] [DEBUG] default - ReferenceError: cors is not defined
+    at Object.<anonymous> (C:\Users\hp\Desktop\Alphatech-Rebranding\server.js:19:7)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+[2024-02-09T02:20:44.706] [DEBUG] default - ReferenceError: cors is not defined
+    at Object.<anonymous> (C:\Users\hp\Desktop\Alphatech-Rebranding\server.js:19:7)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+[2024-02-09T02:20:55.479] [DEBUG] default - ReferenceError: cors is not defined
+    at Object.<anonymous> (C:\Users\hp\Desktop\Alphatech-Rebranding\server.js:19:7)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+[2024-02-09T02:21:15.981] [DEBUG] default - ReferenceError: cors is not defined
+    at Object.<anonymous> (C:\Users\hp\Desktop\Alphatech-Rebranding\server.js:19:7)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47

@@ -2,6 +2,9 @@ const express = require("express");
 const helmet = require("helmet");
 const hpp = require("hpp");
 const path = require("path");
+const bodyParser = require('body-parser');
+const axios = require('axios');
+const cors = require('cors');
 const logger = require("./helpers/logger");
 const errorMiddleWare = require("./middleware/errorMiddleware");
 const cookieParser = require("cookie-parser");
@@ -13,6 +16,9 @@ try {
   require("dotenv").config();
 
   const app = express();
+  app.use(bodyParser.json());
+  //Use Cors
+  app.use(cors());
 
 //Helmet
 
@@ -35,12 +41,13 @@ app.use(
   app.use(express.static(path.join("public")));
 
 
-//Rot
+//Route
 app.use("/", generalRoute)
 
 
   //Error Middleware
   app.use(errorMiddleWare);
+
 
 
 
