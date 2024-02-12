@@ -3,6 +3,7 @@ const { blogPageGet , singlePageGet } = require("../../controllers/general/blog"
 const { contactPageGet } = require("../../controllers/general/contact");
 const { servicesPageGet } = require("../../controllers/general/services");
 const { aboutPageGet } = require("../../controllers/general/about");
+const { bootcampPageGet } = require("../../controllers/general/bootcamp");
 
 
 
@@ -27,6 +28,10 @@ generalRoute.route("/services").get(servicesPageGet)
 
 //ABOUTPAGE
 generalRoute.route("/about-us").get(aboutPageGet)
+
+//BOOTCAMPPAGE
+generalRoute.route("/bootcamp").get(bootcampPageGet)
+
 
 
 

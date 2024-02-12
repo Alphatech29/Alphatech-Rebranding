@@ -304,13 +304,13 @@ section.award .container-fluid .row .col-6 a:hover {
     width: 100%;
     border-bottom: 2px solid var(--primary-color);
     height: 50px;
-    overflow: scroll;
+    overflow-y: auto;
 }
 
 .tekrevol .container-fluid .nav-tabs .tab-head ul.nav-tab {
     gap            : 10px !important;
     width          : 100%;
-    display: flex !important;
+    display: inline-flex !important;
 
 }
 .tekrevol .container-fluid .nav-tabs .tab-head ul li button {

@@ -1344,3 +1344,39 @@ section.Core .container-fluid .core-boby .core-content{
 section.Core .container-fluid .core-boby .core-content p{
    font-size: 20px;
  }
+ section.bootcamp{
+    padding: 30px;
+    background-image: url('/image/tech-class.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+ }
+ section.bootcamp::before{
+    content: "";
+    background-color: #22034171;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    height: 100%;
+    left: 0;
+ }
+ section.bootcamp .container-fluid{
+   padding-left: 5rem;
+   padding-right: 5rem;
+   padding-top: 10rem;
+   padding-bottom: 6rem;
+   color: var(--tech-bg-color);
+   z-index: 22;
+ }
+ section.bootcamp .container-fluid  .camp .camp-content {
+    background-color: #36026956;
+    padding: 20px;
+    border-radius: 10px;
+}
+ section.bootcamp .container-fluid  .camp .camp-content .camp-title{
+    font-size: 3.20rem;
+    font-weight: 700;
+  }
+  section.bootcamp .container-fluid .camp .camp-content .camp-sub {
+    font-size: 1.3rem;
+}

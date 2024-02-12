@@ -1,0 +1,33 @@
+<%-include("../partials/header")%>
+
+<section class="bootcamp">
+    <div class="container-fluid">
+        <div class="camp row">
+            <div class="camp-content col-7">
+                <h1 class="camp-title">
+                    We transform individuals with a passion for digital technology into skilled professionals ready for the industry.</h1>
+                    <p class="camp-sub">
+                        Alphatech Skills Bootcamp empowers with vital digital skills for the global job market. Tailored for success, it readies you for the demands of today’s dynamic professional landscape.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<script src="https://unpkg.com/scrollreveal"></script>
+<script>
+     ScrollReveal({
+     reset: true,
+     distance:"60px",
+     duration: 2500,
+     delay: 400
+     });
+
+  ScrollReveal().reveal(' .camp-title', {delay: 200, origin:"left",});
+  ScrollReveal().reveal('.contact-form', {delay: 100, origin:"right",});
+  ScrollReveal().reveal('.camp-sub', {delay: 200, origin:"bottom",});
+  ScrollReveal().reveal('.page-title', {delay: 200, origin:"top",});
+</script>
+
+
+<%-include("../partials/footer")%>
