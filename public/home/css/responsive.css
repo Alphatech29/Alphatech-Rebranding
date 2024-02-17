@@ -608,5 +608,121 @@ section.contact .container-fluid .contact-form form .form-btn button:hover{
     padding-right : 1rem;
 }
 
+section.bootcamp{
+    padding: 20px;
+    background-size: cover;
+ }
+ section.bootcamp .container-fluid{
+    padding-left: .20rem;
+    padding-right: .20rem;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    color: var(--tech-bg-color);
+    z-index: 22;
+  }
+  section.bootcamp .container-fluid  .camp .camp-content {
+    padding: 15px;
+    width: 100%;
+}
+section.bootcamp .container-fluid  .camp .camp-content .camp-title{
+    font-size: 30px;
+    font-weight: 600;
+  }
+  section.bootcamp .container-fluid .camp .camp-content .camp-sub {
+    font-size: 17px;
+}
+section.bootcamp .container-fluid .camp .camp-content .canp-btn a{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    border-radius: 7px;
+    font-size: 17px;
+}
+section.bootcamp .container-fluid .camp .camp-content .canp-btn a:hover{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    border-radius: 7px;
+    font-size: 17px;
+}
+.partner{
+    padding: 20px;
+}
+.partner .container-fluid{
+    padding-left: .0rem;
+    padding-right: .0rem;
+    width: 100%;
+    height: 70px;
+}
+.partner .container-fluid .partner .part-content h2.pt{
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    margin-left: -20px;
+    margin-top: -20px;
+}
+.partner .container-fluid .partner {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.partner .container-fluid .partner .part-content{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+.partner .container-fluid .partner .part-image{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.partner .container-fluid .partner .part-image img{
+    width:20%;
+}
+section.course{
+    padding: 20px;
+    overflow: hidden;
+}
+section.course .container-fluid{
+    padding-left: .20rem;
+    padding-right: .20rem;
+}
+section.course .container-fluid .course-header h2.course-title{
+    width:100%;
+    font-size: 20px;
+ }
+ section.course .container-fluid .course-header p{
+    width:100%;
+    font-size: 16px;
+ }
+ section.course .container-fluid .course-body{
+    display: flex;
+    flex-direction: column;
+ }
+ section.course .container-fluid .course-body .card{
+    width:100%;
+}
+section.course .container-fluid .course-body .card .card-body h5.card-title{
+    font-size: 1.3rem;
+ }
+ section.course .container-fluid .course-body .card .card-body .card-text{
+    font-size: 16px;
+ }
+ section.course .container-fluid .course-body .card .card-body p.card-text-part{
+    font-size: 16px;
+ }
+ section.course .container-fluid .course-body .card .card-body .card-btn button{
+    font-size: 16px;
+ }
+ section.course .container-fluid .course-body .card .card-body .card-btn button:hover{
+    font-size: 16px;
+ }
   }
   
