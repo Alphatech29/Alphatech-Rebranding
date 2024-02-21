@@ -434,7 +434,7 @@ section.about-us {
 section.about-us .container-fluid {
     padding-left: .20rem;
     padding-right: .20rem;
-    padding-top: 9rem;
+    padding-top: 0rem;
 }
 section.about-us .container-fluid .about-body .about-content {
    width:100%;

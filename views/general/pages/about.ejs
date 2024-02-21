@@ -1,10 +1,21 @@
 <%-include("../partials/header")%>
-
+<section class="page">
+    <div class="container-fluid">
+        <span></span>
+        <span class="ft"></span>
+        <div class="page-head">
+            <h2 class="page-title">
+                <%= title %>
+            </h2>
+            <p class="page-description">________</p>
+        </div>
+    </div>
+</section>
 <section class="about-us">
     <div class="container-fluid">
         <div class="about-body row g-5">
             <div class="about-content col-6 ">
-                <h2 class="about-title"><%= title %></h2>
+                <!-- <h2 class="about-title"><%= title %></h2> -->
                <div class="about-text">
                 <p class="mb-3">Established in 2010, Alphatech Multimedia Technologies has evolved into a powerhouse in the web and software development landscape, boasting a prominent position with a corporate headquarters in Lagos, Nigeria. As a major player in the industry, our credentials include registrations with the Corporate Affairs Commission (CAC) and licensing from the National Information Technology Development Agency (NiTdA), solidifying our standing as a top-tier software development and IT consultancy company. Our expansive reach extends globally, as we empower businesses with transformative digital experiences, specializing in Web Design, Web Development, Custom Development, and Inbound Solutions across diverse industries.</p>
                <p>At Alphatech Multimedia Technologies, our role as a large-scale company is underscored by a steadfast commitment to excellence and innovation. Leveraging cutting-edge technology and industry best practices, our seasoned team of experts is dedicated to driving change, seamlessly connecting brands with their target audiences, and converting attention into tangible leads. Whether it's enhancing online presence, developing sophisticated software solutions, or implementing comprehensive inbound strategies, Alphatech Multimedia Technologies is the strategic partner of choice for enterprises looking to navigate the digital landscape at a grand scale.</p>
@@ -121,8 +132,8 @@
 
   ScrollReveal().reveal(' .about-text , .left', {delay: 200, origin:"left",});
   ScrollReveal().reveal('.abc-img , .right', {delay: 100, origin:"right",});
-  ScrollReveal().reveal('.text-sub , .bottom', {delay: 200, origin:"bottom",});
-  ScrollReveal().reveal('.about-title , .team-title , .top', {delay: 200, origin:"top",});
+  ScrollReveal().reveal('.text-sub , .bottom , .page-description', {delay: 200, origin:"bottom",});
+  ScrollReveal().reveal('.about-title , .team-title , .top , .page-title', {delay: 200, origin:"top",});
 </script>
 
 <%-include("../partials/footer")%>

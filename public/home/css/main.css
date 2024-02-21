@@ -990,12 +990,12 @@ section.page .container-fluid .page-head {
 }
 
 section.page .container-fluid .page-head h2.page-title {
-    font-size: 2.3rem;
+    font-size: 3rem;
 }
 
 section.page .container-fluid .page-head p.page-description {
-    font-size: 19px;
-    width    : 70%;
+    font-size: 24px;
+    width    : 75%;
 }
 
 section.contact {
@@ -1224,7 +1224,7 @@ section.about-us::after {
 section.about-us .container-fluid{
     padding-left: 5rem;
     padding-right: 5rem;
-    padding-top: 5rem;
+    padding-top: 0rem;
     margin-top: 3rem;
     padding-bottom: 3rem;
     color: var(--alpha-ts-color);
@@ -1247,11 +1247,11 @@ section.about-us .container-fluid .about-body .about-content .abc-img img{
    margin-left: 20px;
    z-index: 22;
 }
-section.about-us .container-fluid .about-body .about-content .about-title{
+/* section.about-us .container-fluid .about-body .about-content .about-title{
     font-size: 4rem;
     padding: 0;
     margin: 0;
-}
+} */
 
 section.team{
     background-color: var(--primary-color);
@@ -1536,3 +1536,72 @@ section.course .container-fluid .course-body .card .card-body .card-text{
    color: rgb(0, 202, 0);
    padding-left: 10px;
  }
+ section.prorfolio{
+    padding: 30px;
+    background-color: var(--alpha-jk-tx);
+ }
+ section.prorfolio .container-fluid{
+    padding-left: 5rem;
+    padding-right: 5rem;
+ }
+ section.prorfolio .container-fluid .folio{
+    gap:20px;
+ }
+ section.prorfolio .container-fluid .folio .portfolio-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    border-radius: 7px;
+    width: 32.33%;
+    height: 320px;
+    transition: 0.3s;
+    cursor: pointer;
+    box-shadow: 1px 1px 4px 0px rgba(179, 0, 179, 0.76), 1px 1px 4px 0px rgba(204, 0, 204, 0.712)inset;
+}
+section.prorfolio .container-fluid .folio .portfolio-card img{
+    width: 500px;
+    height: 320px;
+    transition: 0.3s;
+}
+.portfolio-card:hover .portfolio-info {
+    display: flex;
+  }
+ section.prorfolio .container-fluid .folio .portfolio-card .portfolio-info{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    color: var(--tech-bg-color);
+    transition: 0.3s;
+    text-align: center;
+    background: rgba(85, 0, 134, 0.6);
+  }
+  section.prorfolio .container-fluid .folio .portfolio-card .portfolio-info h2{
+   text-align: center;
+   font-size: 1.9rem;
+   font-weight: 600;
+  }
+  section.prorfolio .container-fluid .folio .portfolio-card .portfolio-info p{
+    text-align: center;
+    font-size: 1.3rem;
+   }
+  .portfolio-card .portfolio-info .portfolio-link{
+    display: flex;
+    gap: 15px;
+  }
+  .portfolio-card .portfolio-info .portfolio-link a{
+   font-size: 1.5rem;
+   background-color: var(--tech-bg-color);
+   padding: 7px;
+   border-radius: 20%;
+   text-decoration: none;
+   color: var(--primary-color);
+}  

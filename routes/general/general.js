@@ -4,6 +4,7 @@ const { contactPageGet } = require("../../controllers/general/contact");
 const { servicesPageGet } = require("../../controllers/general/services");
 const { aboutPageGet } = require("../../controllers/general/about");
 const { bootcampPageGet } = require("../../controllers/general/bootcamp");
+const { portfolioPageGet } = require("../../controllers/general/portfolio");
 
 
 
@@ -31,6 +32,10 @@ generalRoute.route("/about-us").get(aboutPageGet)
 
 //BOOTCAMPPAGE
 generalRoute.route("/bootcamp").get(bootcampPageGet)
+
+//PORTFOLIOPAGE
+generalRoute.route("/portfolio").get(portfolioPageGet)
+
 
 
 

@@ -11,6 +11,29 @@ window.addEventListener('scroll', () => {
   }
 });
 
+   // JavaScript code in main.js
+
+   document.addEventListener('DOMContentLoaded', function () {
+    // Select all elements with class 'portfolio-card'
+    const portfolioCards = document.querySelectorAll('.portfolio-card');
+  
+    // Loop through each portfolio card
+    portfolioCards.forEach(card => {
+      // Add mouseover event listener
+      card.addEventListener('mouseover', function () {
+        // Set the display of .portfolio-info to flex
+        this.querySelector('.portfolio-info').style.display = 'flex';
+      });
+  
+      // Add mouseout event listener
+      card.addEventListener('mouseout', function () {
+        // Set the display of .portfolio-info to none
+        this.querySelector('.portfolio-info').style.display = 'none';
+      });
+    });
+  });
+  
+
 document.addEventListener('DOMContentLoaded', function() {
     // Get the current year
     const currentYear = new Date().getFullYear();
