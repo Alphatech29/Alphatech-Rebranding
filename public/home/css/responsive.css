@@ -379,15 +379,15 @@ section.features .container-fluid .row .col-4 ul {
     padding-left: 0px;
 }
 section.partner {
-    padding: 20px;
+    padding: 10px;
     overflow: hidden !important;
  
 }
 section.partner .container-fluid {
-    padding-left  : .20rem;
-    padding-right : .20rem;
-    padding-top   : 30rem;
-    padding-bottom: 40rem;
+    padding-left  : .10rem;
+    padding-right : .10rem;
+    padding-top   : 2rem;
+    padding-bottom: 2rem;
 
 }
 section.partner .container-fluid .row{
@@ -419,13 +419,13 @@ section.partner .container-fluid .requst span {
     font-size: 15px;
 }
 section.partner .container-fluid .requst h2 {
-    font-size: 18px;
+    font-size: 16px;
 }
 section.partner .container-fluid .requst a {
-    font-size     : 15px;
+    font-size     : 10px;
     padding-left  : 1rem;
     padding-right : 1rem;
-    width: 20%;
+    width: auto;
 
 }
 section.partner .container-fluid .requst a:hover {
@@ -439,8 +439,60 @@ section.partner .container-fluid .row .col-4 ul li img {
     width: 20%;
     object-fit: fill;
     border-radius: 10%;
-    padding: 25px;
+    padding: 10px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+.partner .container-fluid .partner .part-content h2.pt{
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    margin-left: -20px;
+    margin-top: -20px;
+}
+.partner .container-fluid .partner {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.partner .container-fluid .partner .part-content{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+.partner .container-fluid .partner .part-image{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+section.partner .container-fluid .row .col-4 ul li:nth-child(1) {
+    padding-left: 5rem;
+    width       : 110%;
+}
+
+section.partner .container-fluid .row .col-4 ul li:nth-child(2) {
+    padding-left     : 15rem;
+    height           : 10%;
+    width            : 170%;
+}
+
+section.partner .container-fluid .row .col-4 ul li:nth-child(4) {
+    padding-left: 15rem;
+    width       : 170%;
+}
+
+section.partner .container-fluid .row .col-4 ul li:nth-child(5) {
+    padding-left     : 2.5rem;
+    width            : 130%;
+}
+
+section.partner .container-fluid .row .col-4 ul li:nth-child(6) {
+    padding-left: 10rem;
+    width       : 155%;
 }
 section.about-us {
     padding: 20px;
@@ -662,45 +714,6 @@ section.bootcamp .container-fluid .camp .camp-content .canp-btn a:hover{
     padding-bottom: 0.3rem;
     border-radius: 7px;
     font-size: 17px;
-}
-.partner{
-    padding: 20px;
-}
-.partner .container-fluid{
-    padding-left: .0rem;
-    padding-right: .0rem;
-    width: 100%;
-    height: 70px;
-}
-.partner .container-fluid .partner .part-content h2.pt{
-    font-size: 18px;
-    margin: 0;
-    padding: 0;
-    margin-left: -20px;
-    margin-top: -20px;
-}
-.partner .container-fluid .partner {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: column;
-}
-.partner .container-fluid .partner .part-content{
-    width: 100%;
-    display: flex;
-    justify-content: flex-start;
-}
-.partner .container-fluid .partner .part-image{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1%;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-.partner .container-fluid .partner .part-image img{
-    width:20%;
 }
 section.course{
     padding: 20px;
