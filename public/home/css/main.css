@@ -63,19 +63,19 @@ header.nav.scrolled {
 
 
 header.nav .header-container {
-    padding        : 7px;
+    padding        : 5px;
     display        : flex;
     justify-content: space-between;
     align-items    : center;
     width          : 100%;
-    padding-left   : 6rem;
-    padding-right  : 6rem;
-    padding-top    : .70rem;
+    padding-left   : 5rem;
+    padding-right  : 5rem;
+    padding-top    : .50rem;
     height         : inherit;
 }
 
 header.nav .header-container .header-logo {
-    font-size  : 25px;
+    font-size  : 20px;
     color      : var(--alpha-ts-color);
     font-weight: 700;
     height     : inherit;
@@ -103,11 +103,11 @@ header.nav .header-container .header-menu .menu ul {
     justify-content: center;
     align-items    : center;
     list-style-type: none;
-    gap            : 30px;
-    font-size      : 20px;
+    gap            : 20px;
+    font-size      : 17px;
     font-weight    : 600;
     height         : inherit;
-    padding-top    : 15px;
+    padding-top    : 10px;
 }
 
 header.nav .header-container .header-menu .menu ul li {
@@ -122,7 +122,7 @@ header.nav .header-container .header-menu .menu ul li a {
 }
 
 header.nav .header-container .header-menu .menu ul li a:hover {
-    border-bottom: 2px solid var(--tech-bgt-color);
+    border-bottom: 1px solid var(--tech-bgt-color);
     color        : var(--tech-bgt-color);
 }
 
@@ -130,36 +130,36 @@ header.nav .header-container .header-menu .menu-btn a {
     text-decoration: none;
     background     : linear-gradient(to left, #fff01b7e 0%, #520096 100%);
     color          : var(--alpha-ts-color);
-    padding-left   : 2rem;
-    padding-right  : 2rem;
-    padding-top    : .60rem;
-    padding-bottom : .60rem;
+    padding-left   : 1rem;
+    padding-right  : 1rem;
+    padding-top    : .50rem;
+    padding-bottom : .50rem;
     border-radius  : 7px;
-    font-size      : 20px;
+    font-size      : 17px;
 }
 
 header.nav .header-container .header-menu .menu-btn a:hover {
     text-decoration: none;
     background     : linear-gradient(to left, #4d00b17e 0%, #ffe70f 100%);
     color          : var(--alpha-ts-color);
-    padding-left   : 2rem;
-    padding-right  : 2rem;
-    padding-top    : .60rem;
-    padding-bottom : .60rem;
+    padding-left   : 1rem;
+    padding-right  : 1rem;
+    padding-top    : .50rem;
+    padding-bottom : .50rem;
     border-radius  : 7px;
-    font-size      : 20px;
+    font-size      : 17px;
     box-shadow     : 0 0 7px rgb(239, 255, 18);
 }
 
 footer {
     background-color: #180030;
-    padding         : 30px;
+    padding         : 20px;
 }
 
 footer .container-fluid {
     padding-left   : 1rem;
     padding-right  : 1rem;
-    padding-top    : 3.5rem;
+    padding-top    : 3rem;
     color          : var(--alpha-ts-color);
     justify-content: center;
     align-items    : center;
@@ -175,11 +175,11 @@ footer .container-fluid .row .col {
 }
 
 footer .container-fluid .row .col p {
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 footer .container-fluid .row .col h3 {
-    font-size: 1.7rem;
+    font-size: 1.3rem;
 }
 
 footer .container-fluid .row .col ul {
@@ -194,24 +194,24 @@ footer .container-fluid .row .col ul li {
     justify-content: flex-start;
     align-items    : center;
     display        : flex;
-    font-size      : 17px;
+    font-size      : 15px;
 }
 
 footer .container-fluid .row .col ul li a {
     text-decoration: none;
-    font-size      : 17px;
+    font-size      : 15px;
     color          : var(--alpha-ts-color);
 }
 
 footer .container-fluid .row .col ul li a:hover {
     text-decoration: none;
-    font-size      : 20px;
+    font-size      : 15px;
     color          : var(--alpha-rb-color);
 }
 
 footer .container-fluid .row .col ul li a span {
     margin-right: 8px;
-    font-size   : 18px;
+    font-size   : 15px;
     color          : var(--alpha-ts-color);
 }
 
@@ -231,12 +231,12 @@ footer .container-fluid .footer-credit {
 }
 
 footer .container-fluid .footer-credit .copyright p {
-    font-size: 1.1rem;
+    font-size: .95rem;
 }
 
 footer .container-fluid .row .col .contact-icon {
     display   : flex;
-    gap       : 15px;
+    gap       : 10px;
     margin-top: 2rem;
 }
 
@@ -248,8 +248,8 @@ footer .container-fluid .row .col .contact-icon a {
 }
 
 footer .container-fluid .row .col .contact-icon a img {
-    height       : 10;
-    width        : 10;
+    height       : 5;
+    width        : 5;
     border-radius: 90%;
     object-fit   : fill;
     border       : 1px solid var(--alpha-jk-tx);
@@ -262,7 +262,7 @@ footer .container-fluid .row .col .contact-icon a:hover {
 
 
 section.hero {
-    padding         : 30px;
+    padding         : 20px;
     background-color: var(--primary-color);
     position        : relative;
 }
@@ -291,7 +291,7 @@ section.hero .container-fluid {
     display        : flex;
     justify-content: center;
     align-items    : center;
-    margin-top     : 10rem;
+    margin-top     : 8rem;
     padding-bottom : 25px;
     z-index        : 2;
 }
@@ -304,16 +304,17 @@ section.hero .container-fluid .row {
 
 section.hero .container-fluid .row .col-6 h1 {
     color      : var(--tech-bg-color);
-    font-size  : 3.70rem;
+    font-size  : 3.2rem;
     font-weight: 700;
 }
 
 section.hero .container-fluid .row .col-6 p {
     color    : var(--alpha-jk-tx);
-    font-size: 20px;
+    font-size: 18px;
 }
-section.hero .container-fluid .row .col-5 .hero-img img{
+section.hero .container-fluid .row .col-5.hero-img img{
     animation: bounce 2s infinite;
+    width: 500px;
 }
 
 @keyframes bounce {
@@ -354,14 +355,15 @@ section.hero .container-fluid .row .col-6 .newsletter form .form-control input {
     border          : none;
     outline         : none;
     background-color: transparent;
-    padding         : 10px;
-    font-size       : 20px;
+    padding         : 2px;
+    font-size       : 15px;
     color           : var(--secondary-color);
     width           : 100%;
 }
 
 section.hero .container-fluid .row .col-6 .newsletter form .form-control input::placeholder {
     color: var(--secondary-color);
+    font-size: 15px;
 }
 
 section.hero .container-fluid .row .col-6 .newsletter form .sub-btn {
@@ -373,11 +375,11 @@ section.hero .container-fluid .row .col-6 .newsletter form .sub-btn {
 section.hero .container-fluid .row .col-6 .newsletter form .sub-btn button {
     border        : none;
     outline       : none;
-    font-size     : 20px;
-    padding-left  : 2rem;
-    padding-right : 2rem;
-    padding-top   : 1rem;
-    padding-bottom: 1rem;
+    font-size     : 17px;
+    padding-left  : 1rem;
+    padding-right : 1rem;
+    padding-top   : .50rem;
+    padding-bottom: .50rem;
     background    : linear-gradient(to left, #fff01b 0%, #520096 100%);
     color         : var(--alpha-ts-color);
 }
@@ -385,19 +387,18 @@ section.hero .container-fluid .row .col-6 .newsletter form .sub-btn button {
 section.hero .container-fluid .row .col-6 .newsletter form .sub-btn button:hover {
     border        : none;
     outline       : none;
-    font-size     : 20px;
-    padding-left  : 2rem;
-    padding-right : 2rem;
-    padding-top   : 1rem;
-    padding-bottom: 1rem;
+    font-size     : 17px;
+    padding-left  : 1rem;
+    padding-right : 1rem;
+    padding-top   : .50rem;
+    padding-bottom: .50rem;
     background    : linear-gradient(to left, #470081 0%, #ffef14 100%);
     color         : var(--alpha-ts-color);
 }
 
-
 section.our-service {
     background-color: var(--tech-bg-color);
-    padding         : 30px;
+    padding         : 20px;
 }
 
 section.our-service .container-fluid {
@@ -405,8 +406,8 @@ section.our-service .container-fluid {
     justify-content: center;
     align-items    : center;
     flex-direction : column;
-    padding-left   : 4.5rem;
-    padding-right  : 4.5rem;
+    padding-left   : 4rem;
+    padding-right  : 4rem;
     margin-bottom  : 2rem;
 }
 
@@ -420,13 +421,13 @@ section.our-service .container-fluid .head-titel {
 }
 
 section.our-service .container-fluid .head-titel h2 {
-    font-size  : 4rem;
+    font-size  : 3rem;
     color      : var(--secondary-color);
     font-weight: 600;
 }
 
 section.our-service .container-fluid .head-titel p {
-    font-size: 20px;
+    font-size: 18px;
     color    : var(--secondary-color);
 }
 
@@ -453,29 +454,31 @@ section.our-service .container-fluid .row .col-5:hover {
 }
 
 section.our-service .container-fluid .row .col-5 h3 {
-    font-size: 1.90rem;
+    font-size: 1.2rem;
 }
 
 section.our-service .container-fluid .row .col-5 p {
-    font-size: 19px;
+    font-size: 15px;
 }
 
 section.our-service .container-fluid .row .col-5 .service-icon {
-    background-color: var(--service-color);
-    padding         : 10px;
-    width           : 15%;
-    display         : flex;
-    justify-content : center;
-    align-items     : center;
-    border-radius   : 7px;
-    margin-bottom   : 10px;
+    width           : 100%;
+    margin-bottom   : 8px;
     margin-left     : 7px;
     margin-top      : 9px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 section.our-service .container-fluid .row .col-5 .service-icon span {
     font-size: 27px;
     color    : var(--service-color-icon);
+    background-color: var(--service-color);
+    padding: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-radius   : 7px;
 }
 section.our-service .container-fluid .row .col-5 .service-btn{
    display: flex;
@@ -486,32 +489,32 @@ section.our-service .container-fluid .row .col-5 .service-btn a{
         text-decoration: none;
         background: linear-gradient(to left, #fff01bb2 0%, #520096 100%);
         color: var(--alpha-ts-color);
-        padding-left: 2rem;
-        padding-right: 2rem;
-        padding-top: 0.6rem;
-        padding-bottom: 0.6rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
         border-radius: 7px;
-        font-size: 20px;
+        font-size: 16px;
  }
  section.our-service .container-fluid .row .col-5 .service-btn a:hover{
     text-decoration: none;
     background: linear-gradient(to left, #4c017eb2 0%, #ecd500 100%);
     color: var(--alpha-ts-color);
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-top: 0.6rem;
-    padding-bottom: 0.6rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
     border-radius: 7px;
-    font-size: 20px;
+    font-size: 16px;
 }
 section.tech {
     background-color: var(--alpha-jk-tx);
-    padding         : 30px;
+    padding         : 20px;
 }
 
 section.tech .container-fluid {
-    padding-left : 5.5rem;
-    padding-right: 5.5rem;
+    padding-left : 4.5rem;
+    padding-right: 4.5rem;
     padding-top  : 3rem;
     margin-bottom: 3rem;
 }
@@ -523,7 +526,7 @@ section.tech .container-fluid .row .col-6 {
 }
 
 section.tech .container-fluid .row .col-6 article {
-    font-size  : 20px;
+    font-size  : 17px;
     padding-top: 1.5rem;
     color      : var(--alpha-color);
 }
@@ -533,29 +536,29 @@ section.tech .container-fluid .row {
 }
 
 section.tech .container-fluid .row .col-5 img {
-    width: 500px
+    width: 450px
 }
 
 section.features {
-    padding         : 30px;
+    padding         : 20px;
     background-color: #ece6f1;
 }
 
 section.features .container-fluid {
-    padding-left : 5rem;
-    padding-right: 5rem;
+    padding-left : 4.5rem;
+    padding-right: 4.5rem;
 }
 
 section.features .container-fluid h5 {
     width     : 50%;
     text-align: center;
-    font-size : 23px;
+    font-size : 20px;
     color     : var(--alpha-jk-tx);
 }
 
 section.features .container-fluid .head-title {
     text-align : center;
-    font-size  : 4rem;
+    font-size  : 2.5rem;
     font-weight: 500;
     color      : var(--secondary-color);
 }
@@ -563,7 +566,7 @@ section.features .container-fluid .head-title {
 section.features .container-fluid p {
     width     : 70%;
     text-align: center;
-    font-size : 1.2rem;
+    font-size : 1rem;
     color     : var(--secondary-color);
 }
 
@@ -585,22 +588,24 @@ section.features .container-fluid .row ul li span {
 }
 
 section.features .container-fluid .row ul li {
-    font-size: 19px;
+    font-size: 17px;
     color    : var(--secondary-color);
 }
 
 section.award {
-    padding         : 30px;
+    padding         : 20px;
     background-color: var(--primary-color);
 }
 
 section.award .container-fluid {
-    padding-left  : 5rem;
-    padding-right : 5rem;
+    padding-left  : 4.5rem;
+    padding-right : 4.5rem;
     padding-bottom: 3rem;
     padding-top   : 3rem;
 }
-
+/* section.award .container-fluid .row{
+    gap: 2%;
+} */
 section.award .container-fluid .row .col-6 {
     color  : var(--tech-bg-color);
     padding: 10px;
@@ -608,22 +613,22 @@ section.award .container-fluid .row .col-6 {
 
 section.award .container-fluid .row .col-6 span {
     color    : var(--alpha-gold-nth-color);
-    font-size: 20px;
+    font-size: 17px;
 }
 
 section.award .container-fluid .row .col-6 h3 {
-    font-size     : 2.3rem;
+    font-size     : 2rem;
     font-weight   : 700;
     margin-top    : 15px;
     padding-bottom: 15px;
 }
 
 section.award .container-fluid .row .col-6 p {
-    font-size: 20px;
+    font-size: 17px;
 }
 
 section.award .container-fluid .row .col-6 a {
-    font-size      : 20px;
+    font-size      : 16px;
     text-decoration: none;
     color          : var(--alpha-gold-nth-color);
     background     : linear-gradient(to left, #fff01bd2 0%, #520096 100%);
@@ -636,7 +641,7 @@ section.award .container-fluid .row .col-6 a {
 }
 
 section.award .container-fluid .row .col-6 a:hover {
-    font-size      : 20px;
+    font-size      : 16px;
     text-decoration: none;
     color          : var(--alpha-gold-nth-color);
     background     : linear-gradient(to left, #410175d2 0%, #e2f107 100%);
@@ -762,7 +767,7 @@ section.partner .container-fluid .row .col-4 ul li img {
 
 section.partner .container-fluid .row .col-4 h3 {
     text-align : center;
-    font-size  : 2.3rem;
+    font-size  : 1.70rem;
     color      : var(--primary-color);
     font-weight: 700;
 }
@@ -777,8 +782,8 @@ section.partner .container-fluid .requst {
     background-color: var(--primary-color);
     padding         : 10rem;
     padding-top     : 5rem;
-    padding-bottom  : 5rem;
-    margin-top      : 7rem;
+    padding-bottom  : 3rem;
+    margin-top      : 5rem;
     border-radius   : 10px;
     color           : var(--tech-bgt-color);
     display         : flex;
@@ -788,20 +793,20 @@ section.partner .container-fluid .requst {
 }
 
 section.partner .container-fluid .requst span {
-    font-size: 1.6rem;
+    font-size: 1.2rem;
 }
 
 section.partner .container-fluid .requst h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 section.partner .container-fluid .requst a {
-    font-size      : 1.5rem;
+    font-size      : 1rem;
     text-decoration: none;
     background     : linear-gradient(to left, #fff01bb9 0%, #520096 100%);
     color          : var(--alpha-ts-color);
-    padding-left   : 2rem;
-    padding-right  : 2rem;
+    padding-left   : 1rem;
+    padding-right  : 1rem;
     border-radius  : 7px;
     padding-top    : .80rem;
     padding-bottom : .80rem;
@@ -809,38 +814,38 @@ section.partner .container-fluid .requst a {
 }
 
 section.partner .container-fluid .requst a:hover {
-    font-size      : 1.5rem;
+    font-size      : 1rem;
     text-decoration: none;
     background     : linear-gradient(to left, #4f007cb9 0%, #e9e507 100%);
     color          : var(--alpha-ts-color);
-    padding-left   : 2rem;
-    padding-right  : 2rem;
+    padding-left   : 1rem;
+    padding-right  : 1rem;
     border-radius  : 7px;
     padding-top    : .80rem;
     padding-bottom : .80rem;
 }
 
 .tekrevol {
-    padding         : 30px;
+    padding         : 20px;
     background-color: var(--tech-bg-color);
     padding-bottom  : 3rem;
 }
 
 .tekrevol .container-fluid {
-    padding-left  : 5rem;
-    padding-right : 5rem;
+    padding-left  : 4rem;
+    padding-right : 4rem;
     padding-top   : 3rem;
     padding-bottom: 4rem;
 }
 
 .tekrevol .container-fluid .h3_head {
-    font-size  : 3.3rem;
+    font-size  : 2.5rem;
     font-weight: 600;
     color      : var(--secondary-color);
 }
 
 .tekrevol .container-fluid p {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     color    : var(--secondary-color);
 
 }
@@ -872,7 +877,7 @@ section.partner .container-fluid .requst a:hover {
     outline         : none;
     border          : none;
     box-shadow      : none;
-    font-size       : 1.3rem;
+    font-size       : 1rem;
     color           : var(--primary-color);
     font-weight     : 500;
     padding         : 0;
@@ -886,7 +891,7 @@ section.partner .container-fluid .requst a:hover {
     outline         : none;
     border          : none;
     box-shadow      : none;
-    font-size       : 1.3rem;
+    font-size       : 1rem;
     color           : var(--alpha-gold-nth-color);
     font-weight     : 600;
     border-bottom   : 2px solid var(--alpha-gold-nth-color);
@@ -909,11 +914,11 @@ section.partner .container-fluid .requst a:hover {
 .tekrevol .container-fluid .nav-tabs .tab-content ul li span {
     margin-right: 5px;
     color       : #00d394;
-    font-size   : 19px;
+    font-size   : 15px;
 }
 
 .tekrevol .container-fluid .nav-tabs .tab-content ul li {
-    font-size: 20px;
+    font-size: 15px;
     color    : #00d394;
     color    : var(--secondary-color);
 }
@@ -932,7 +937,7 @@ section.page {
 section.page .container-fluid {
     padding-left   : 5rem;
     padding-right  : 5rem;
-    padding-top    : 10rem;
+    padding-top    : 8rem;
     padding-bottom : 4rem;
     display        : flex;
     justify-content: center;
@@ -990,11 +995,11 @@ section.page .container-fluid .page-head {
 }
 
 section.page .container-fluid .page-head h2.page-title {
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 section.page .container-fluid .page-head p.page-description {
-    font-size: 24px;
+    font-size: 17px;
     width    : 75%;
 }
 
@@ -1052,19 +1057,19 @@ section.contact .container-fluid .contact-info ul {
 }
 
 section.contact .container-fluid .contact-info ul li h2.hq {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 section.contact .container-fluid .contact-info ul li p.address {
-    font-size: 19px;
+    font-size: 15px;
 }
 section.contact .container-fluid .contact-info ul li .mail a {
-    font-size: 1.3rem;
+    font-size: 1rem;
     text-decoration: none;
     color: var(--alpha-ts-color);
 }
 section.contact .container-fluid .contact-info ul li .mail a span{
-  font-size: 20px;
+  font-size: 17px;
   margin-right: 7px;
 }
 
@@ -1110,12 +1115,12 @@ section.contact .container-fluid .contact-form form .form-control input {
     border          : none;
     outline         : none;
     color           : var(--tech-bg-color);
-    font-size       : 19px;
+    font-size       : 17px;
 }
 
 section.contact .container-fluid .contact-form form .form-control input::placeholder {
     color    : var(--tech-bg-color);
-    font-size: 20px;
+    font-size: 17px;
 }
 
 section.contact .container-fluid .contact-form form .form-control textarea {
@@ -1125,13 +1130,13 @@ section.contact .container-fluid .contact-form form .form-control textarea {
     border          : none;
     outline         : none;
     color           : var(--tech-bg-color);
-    font-size       : 21px;
+    font-size       : 19px;
 }
 
 section.contact .container-fluid .contact-form form .form-control textarea::placeholder {
 
     color    : var(--tech-bg-color);
-    font-size: 21px;
+    font-size: 19px;
 }
 
 section.contact .container-fluid .contact-form form .form-control select.dep {
@@ -1159,11 +1164,11 @@ section.contact .container-fluid .contact-form form .form-btn {
 section.contact .container-fluid .contact-form form .form-btn button {
     display       : flex;
     gap           : 7px;
-    font-size     : 25px;
+    font-size     : 20px;
     background    : linear-gradient(to left, #fff01bc0 0%, #520096 100%);
     color         : var(--alpha-ts-color);
-    padding-left  : 2rem;
-    padding-right : 2rem;
+    padding-left  : 1rem;
+    padding-right : 1rem;
     padding-top   : 0.3rem;
     padding-bottom: 0.3rem;
     border-radius : 7px;
@@ -1174,11 +1179,11 @@ section.contact .container-fluid .contact-form form .form-btn button {
 section.contact .container-fluid .contact-form form .form-btn button:hover {
     display       : flex;
     gap           : 7px;
-    font-size     : 25px;
+    font-size     : 20px;
     background    : linear-gradient(to left, #520096 0%, #fff01bc0 100%);
     color         : var(--alpha-ts-color);
-    padding-left  : 2rem;
-    padding-right : 2rem;
+    padding-left  : 1rem;
+    padding-right : 1rem;
     padding-top   : 0.3rem;
     padding-bottom: 0.3rem;
     border-radius : 7px;
@@ -1188,9 +1193,10 @@ section.contact .container-fluid .contact-form form .form-btn button:hover {
 
 section.contact .container-fluid .contact-form form .form-check {
     padding: 0;
+    display: flex;
 }
 section.contact .container-fluid .contact-form form .form-check label {
-    font-size   : 19px;
+    font-size   : 15px;
     padding-left: 7px;
 }
  .google-map{
@@ -1204,7 +1210,7 @@ section.contact .container-fluid .contact-form form .form-check label {
 }
 section.about-us{
     background-color: var(--primary-color);
-    padding: 30px;
+    padding: 20px;
     overflow: hidden;
  
 }
@@ -1222,8 +1228,8 @@ section.about-us::after {
 }
 
 section.about-us .container-fluid{
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
     padding-top: 0rem;
     margin-top: 3rem;
     padding-bottom: 3rem;
@@ -1232,7 +1238,7 @@ section.about-us .container-fluid{
 }
 
 section.about-us .container-fluid .about-body .about-content .about-text p {
-    font-size: 20px;
+    font-size: 16px;
     padding: 0;
     margin: 0;
     z-index: 22;
@@ -1242,7 +1248,7 @@ section.about-us .container-fluid .about-body .about-content .abc-img{
 }
 section.about-us .container-fluid .about-body .about-content .abc-img img{
    object-fit: fill;
-   width: 700px;
+   width: 500px;
    border-radius: 10px;
    margin-left: 20px;
    z-index: 22;
@@ -1255,7 +1261,7 @@ section.about-us .container-fluid .about-body .about-content .abc-img img{
 
 section.team{
     background-color: var(--primary-color);
-    padding: 30px;
+    padding: 2ch;
     position: relative;
     overflow: hidden;
 }
@@ -1274,17 +1280,17 @@ section.team::after {
 } 
 
 section.team .container-fluid{
-   padding-left: 5rem;
-   padding-right: 5rem;
+   padding-left: 4.5rem;
+   padding-right: 4.5rem;
    padding-top: 2rem;
    padding-bottom: 3rem;
 }
 section.team .container-fluid h2.team-title{
-   font-size: 2.6rem;
+   font-size: 2rem;
    color: var(--alpha-ts-color);
  }
 section.team .container-fluid .team-card .card{
-   width:22.5rem;
+   width:22rem;
    padding: 0;
    margin: 0;
    background-color: var(--secondary-color);
@@ -1300,10 +1306,10 @@ section.team .container-fluid .team-card .card .card-body{
     margin: 0;
  }
  section.team .container-fluid .team-card .card .card-body .card-title{
-   font-size: 25px;
+   font-size: 23px;
  }
  section.team .container-fluid .team-card .card .card-body .card-text{
-    font-size: 20px;
+    font-size: 17px;
   }
  section.team .container-fluid .team-card .card .card-footer{
     display: flex;
@@ -1314,17 +1320,17 @@ section.team .container-fluid .team-card .card .card-body{
 }
 section.Core{
     background-color: var(--tech-bg-color);
-    padding: 30px;
+    padding: 20px;
 }
 section.Core .container-fluid{
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
     padding-top: 4rem;
     padding-bottom: 3rem;
 }
 section.Core .container-fluid .core-text{
    text-align: center;
-   font-size: 2.8rem;
+   font-size: 2rem;
    font-weight: 700;
    color: var(--secondary-color);
 }
@@ -1337,15 +1343,18 @@ section.Core .container-fluid .core-boby .core-content{
    padding: 5px;
    padding-left: 1.1rem;
    padding-right: 1.1rem;
-   font-size: 3rem;
+   font-size: 2rem;
    color: var(--alpha-ts-color);
    border-radius: 10px;
 }
+section.Core .container-fluid .core-boby .core-content h2{
+   font-size: 1.2rem;
+ }
 section.Core .container-fluid .core-boby .core-content p{
-   font-size: 20px;
+   font-size: 17px;
  }
  section.bootcamp{
-    padding: 30px;
+    padding: 20px;
     background-image: url('/image/tech-class.webp');
     background-repeat: no-repeat;
     background-size: cover;
@@ -1361,8 +1370,8 @@ section.Core .container-fluid .core-boby .core-content p{
     left: 0;
  }
  section.bootcamp .container-fluid{
-   padding-left: 5rem;
-   padding-right: 5rem;
+   padding-left: 4.5rem;
+   padding-right: 4.5rem;
    padding-top: 10rem;
    padding-bottom: 6rem;
    color: var(--tech-bg-color);
@@ -1374,43 +1383,43 @@ section.Core .container-fluid .core-boby .core-content p{
     border-radius: 10px;
 }
  section.bootcamp .container-fluid  .camp .camp-content .camp-title{
-    font-size: 3.20rem;
+    font-size: 2.2rem;
     font-weight: 700;
   }
   section.bootcamp .container-fluid .camp .camp-content .camp-sub {
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 section.bootcamp .container-fluid .camp .camp-content .canp-btn a{
     text-decoration: none;
     background: linear-gradient(to left, #fff01bc4 0%, #520096 100%);
     color: var(--alpha-ts-color);
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     padding-top: 0.6rem;
     padding-bottom: 0.6rem;
     border-radius: 7px;
-    font-size: 20px;
+    font-size: 17px;
 }
 section.bootcamp .container-fluid .camp .camp-content .canp-btn a:hover{
     text-decoration: none;
     background: linear-gradient(to left, #520096 0%, #fff01bc4  100%);
     color: var(--alpha-ts-color);
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     padding-top: 0.6rem;
     padding-bottom: 0.6rem;
     border-radius: 7px;
-    font-size: 20px;
+    font-size: 17px;
 }
 .partner{
-    padding: 30px;
+    padding: 20px;
     padding-top: 0px;
     padding-bottom: 0px;
     background-color: var(--tech-bg-color);
 }
 .partner .container-fluid{
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
 }
 .partner .container-fluid .partner {
     display: flex;
@@ -1422,7 +1431,7 @@ section.bootcamp .container-fluid .camp .camp-content .canp-btn a:hover{
     display: flex;
 }
 .partner .container-fluid .partner .part-content h2.pt{
-    font-size: 2.2rem;
+    font-size: 2rem;
     font-weight: 600;
     color: var(--secondary-color);
 }
@@ -1434,15 +1443,15 @@ section.bootcamp .container-fluid .camp .camp-content .canp-btn a:hover{
     gap: 1%;
 }
 .partner .container-fluid .partner .part-image img{
-    width:15%;
+    width:14%;
 }
 section.course{
-    padding: 30px;
+    padding: 20px;
     background-color: var(--alpha-jk-tx);
 }
 section.course .container-fluid{
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
@@ -1455,12 +1464,12 @@ section.course .container-fluid .course-header{
 section.course .container-fluid .course-header h2.course-title{
     width:70%;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: var(--alpha-color);
  }
  section.course .container-fluid .course-header p{
     width:70%;
-    font-size: 1.70rem;
+    font-size: 1.20rem;
     text-align: center;
     color: var(--alpha-color);
  }
@@ -1479,16 +1488,16 @@ section.course .container-fluid .course-body{
     display: flex;
 }
 section.course .container-fluid .course-body .card .card-body h5.card-title{
-   font-size: 1.7rem;
+   font-size: 1.2rem;
    font-weight: 700;
    color: var(--alpha-color);
 }
 section.course .container-fluid .course-body .card .card-body .card-text{
-    font-size: 1.2rem;
+    font-size: .90rem;
     color: var(--alpha-color);
  }
  section.course .container-fluid .course-body .card .card-body p.card-text-part{
-    font-size: 1.2rem;
+    font-size: .90rem;
     color: var(--alpha-color);
  }
  section.course .container-fluid .course-body .card .card-body .card-btn{
@@ -1505,7 +1514,7 @@ section.course .container-fluid .course-body .card .card-body .card-text{
     padding-top: 0.2rem;
     padding-bottom: 0.2rem;
     border-radius: 7px;
-    font-size: 17px;
+    font-size: 15px;
     outline: none;
     border: none;
  }
@@ -1518,7 +1527,7 @@ section.course .container-fluid .course-body .card .card-body .card-text{
     padding-top: 0.2rem;
     padding-bottom: 0.2rem;
     border-radius: 7px;
-    font-size: 17px;
+    font-size: 15px;
     outline: none;
     border: none;
  }
@@ -1530,19 +1539,19 @@ section.course .container-fluid .course-body .card .card-body .card-text{
     color: #6916c9;
  }
  section.course .container-fluid .course-body .card .card-footer span{
-    font-size: 17px;
+    font-size: 15px;
  }
  section.course .container-fluid .course-body .card .card-footer span b{
    color: rgb(0, 202, 0);
    padding-left: 10px;
  }
  section.prorfolio{
-    padding: 30px;
+    padding: 20px;
     background-color: var(--alpha-jk-tx);
  }
  section.prorfolio .container-fluid{
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
  }
  section.prorfolio .container-fluid .folio{
     gap:20px;
@@ -1555,15 +1564,15 @@ section.course .container-fluid .course-body .card .card-body .card-text{
     overflow: hidden;
     position: relative;
     border-radius: 7px;
-    width: 32.33%;
-    height: 320px;
+    width: 32%;
+    height: 270px;
     transition: 0.3s;
     cursor: pointer;
     box-shadow: 1px 1px 4px 0px rgba(179, 0, 179, 0.76), 1px 1px 4px 0px rgba(204, 0, 204, 0.712)inset;
 }
 section.prorfolio .container-fluid .folio .portfolio-card img{
-    width: 500px;
-    height: 320px;
+    width: 360px;
+    height: 270px;
     transition: 0.3s;
 }
 .portfolio-card:hover .portfolio-info {
